@@ -56,11 +56,11 @@ article {
     margin-bottom: 15px; /* Space between the image and text */
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     color: #ffffff; /* White for headings inside the header */
 }
 
-h2, h3 {
+h2, h3, h4 {
     color: #005582; /* Deep blue for headings in other sections */
 }
 
