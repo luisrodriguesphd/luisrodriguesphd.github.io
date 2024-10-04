@@ -8,7 +8,7 @@ body {
 
 header {
     background: #005582; /* Deep blue color similar to the LinkedIn primary color */
-    color: #ffffff;
+    color: #ffffff; /* White text for the header, including the title */
     padding: 20px 0;
     text-align: center;
 }
@@ -44,7 +44,11 @@ article {
 }
 
 h1, h2, h3 {
-    color: #005582; /* Deep blue for headings to match LinkedIn's theme */
+    color: #ffffff; /* White for headings inside the header */
+}
+
+h2, h3 {
+    color: #005582; /* Deep blue for headings in other sections */
 }
 
 a {
