@@ -43,6 +43,10 @@ article {
     margin-bottom: 20px;
 }
 
+.project-image-container {
+    text-align: center; /* Center-align the container content */
+}
+
 .project-image {
     width: 100%;
     max-width: 600px;
