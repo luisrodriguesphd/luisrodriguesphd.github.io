@@ -7,8 +7,8 @@ body {
 }
 
 header {
-    background: #0077b5; /* LinkedIn blue */
-    color: #fff;
+    background: #005582; /* Deep blue color similar to the LinkedIn primary color */
+    color: #ffffff;
     padding: 20px 0;
     text-align: center;
 }
@@ -26,7 +26,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffffff; /* White links in the header for contrast */
+    color: #ffffff; /* White links for contrast against the deep blue background */
     text-decoration: none;
     font-weight: bold;
 }
@@ -44,11 +44,11 @@ article {
 }
 
 h1, h2, h3 {
-    color: #0077b5; /* LinkedIn blue for headings */
+    color: #005582; /* Deep blue for headings to match LinkedIn's theme */
 }
 
 a {
-    color: #0077b5; /* LinkedIn blue for links */
+    color: #005582; /* Deep blue for links */
     text-decoration: none;
 }
 
