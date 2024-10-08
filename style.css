@@ -72,3 +72,22 @@ a {
 a:hover {
     text-decoration: underline; /* Underline links on hover for emphasis */
 }
+
+/* Sticky Buy Me a Coffee Button */
+#buy-coffee-sticky {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensures it stays above other elements */
+  }
+  
+  #buy-coffee-sticky img {
+    width: 150px; /* Adjust the size as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  #buy-coffee-sticky img:hover {
+    transform: scale(1.1); /* Adds a nice hover effect */
+  }
+  
