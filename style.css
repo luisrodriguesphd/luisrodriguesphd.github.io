@@ -56,6 +56,10 @@ article {
     margin-bottom: 15px; /* Space between the image and text */
 }
 
+.support-note {
+    font-weight: bold;
+}
+
 h1, h2, h3, h4 {
     color: #ffffff; /* White for headings inside the header */
 }
