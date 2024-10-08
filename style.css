@@ -72,32 +72,20 @@ a {
 a:hover {
     text-decoration: underline; /* Underline links on hover for emphasis */
 }
-
-/* Centralized Buy Me a Coffee Button */
-#buy-coffee-centralized {
-    text-align: center;
-    padding: 40px 20px;
-    background: #f3f6f9; /* Matches the site background */
-    margin-top: 40px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+/* Sticky Buy Me a Coffee Button */
+#buy-coffee-sticky {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; /* Ensures it stays above other elements */
 }
-
-#buy-coffee-centralized h2 {
-    color: #005582; /* Deep blue color for consistency */
-}
-
-#buy-coffee-centralized p {
-    color: #333; /* Dark gray for readability */
-    margin-bottom: 20px;
-}
-
-#buy-coffee-centralized a img {
-    width: 180px; /* Slightly larger for more impact */
+  
+#buy-coffee-sticky img {
+    width: 150px; /* Adjust the size as needed */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s;
 }
-
-#buy-coffee-centralized a img:hover {
-    transform: scale(1.1);
-}
+  
+#buy-coffee-sticky img:hover {
+    transform: scale(1.1); /* Adds a nice hover effect */
+}  
