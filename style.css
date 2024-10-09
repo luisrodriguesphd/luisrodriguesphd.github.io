@@ -46,6 +46,7 @@ article {
 .about-me-container {
     display: flex;
     align-items: center;
+    justify-content: space-between; /* Adds space between the text and image */
 }
 
 .about-me-photo {
