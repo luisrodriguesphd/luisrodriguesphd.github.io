@@ -49,7 +49,7 @@ article {
 }
 
 .about-me-photo {
-    width: 50px; /* Adjust as needed */
+    width: 100px; /* Adjust as needed */
     height: auto;
     border-radius: 50%; /* Make it circular */
     margin-right: 20px; /* Space between the image and text */
