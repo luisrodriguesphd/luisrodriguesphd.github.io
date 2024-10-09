@@ -43,6 +43,23 @@ article {
     margin-bottom: 20px;
 }
 
+.about-me-container {
+    display: flex;
+    align-items: center;
+}
+
+.about-me-photo {
+    width: 150px; /* Adjust as needed */
+    height: auto;
+    border-radius: 50%; /* Make it circular */
+    margin-right: 20px; /* Space between the image and text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: soft shadow for depth */
+}
+
+.about-me-text {
+    flex: 1;
+}
+
 .project-image-container {
     text-align: center; /* Center-align the container content */
 }
