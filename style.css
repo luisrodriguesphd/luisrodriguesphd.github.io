@@ -118,4 +118,22 @@ a:hover {
   
 #buy-coffee-sticky img:hover {
     transform: scale(1.1); /* Adds a nice hover effect */
-}  
+}
+
+.calendly-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #005582;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-top: 10px;
+}
+
+.calendly-button:hover {
+    background-color: #003d5c;
+    transform: translateY(-2px);
+    text-decoration: none;
+}
